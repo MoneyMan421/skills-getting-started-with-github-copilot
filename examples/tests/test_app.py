@@ -4,6 +4,18 @@ EXAMPLE SOLUTION - Step 4 Completed
 
 Comprehensive test suite using pytest and the AAA (Arrange-Act-Assert) pattern.
 Tests all API endpoints and edge cases.
+
+⚠️ IMPORTANT: These tests expect the COMPLETED exercise code (with bug fixes and 
+unregister endpoint). If you run these against the starter code, many tests will fail.
+
+To use these tests:
+1. Complete Steps 2-4 of the exercise
+2. Copy this file to your tests/ directory
+3. Run: pytest tests/test_app.py -v
+
+OR to test the example implementation:
+1. Copy examples/src/app.py to src/app.py
+2. Run: pytest examples/tests/test_app.py -v
 """
 
 import pytest

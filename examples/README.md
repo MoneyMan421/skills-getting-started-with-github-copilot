@@ -62,26 +62,46 @@ Your Copilot-generated code may differ in:
 
 ## Running the Example Code
 
-If you want to test the example solutions:
+⚠️ **Important**: The example tests expect the completed exercise code. If you run them against the starter code, many will fail. This is expected!
+
+### Option 1: Copy Examples to Test Them
+If you want to test the example solutions work:
 
 ```bash
+# Backup your current work (if any)
+cp src/app.py src/app.py.backup
+
 # Copy example backend
 cp examples/src/app.py src/app.py
 
 # Copy example frontend
 cp examples/src/static/* src/static/
 
-# Copy example tests
-cp -r examples/tests .
+# Install dependencies (including pytest)
+pip install -r requirements.txt pytest
 
-# Install dependencies
-pip install -r requirements.txt
-
-# Run tests
-pytest tests/ -v
+# Run the example tests (should all pass now)
+pytest examples/tests/test_app.py -v
 
 # Run application
 python src/app.py
+```
+
+### Option 2: Use Examples as Reference Only (Recommended)
+The better approach is to:
+1. Complete the exercise yourself with Copilot's help
+2. Refer to examples only when stuck
+3. Compare your solution with examples after completing each step
+
+### Testing Your Own Implementation
+After you complete Steps 2-4 yourself, you can:
+
+```bash
+# Copy the example tests to your tests directory
+cp examples/tests/test_app.py tests/
+
+# Run tests against YOUR implementation
+pytest tests/ -v
 ```
 
 ## Learning Tips
