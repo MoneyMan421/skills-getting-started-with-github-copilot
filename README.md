@@ -6,6 +6,7 @@ _Get started using GitHub Copilot in less than an hour._
 
 - **Who is this for**: Developers at any experience level looking to accelerate their code workflow.
 - **What you'll learn**: The different ways to interact with Copilot to explain, write, plan, and develop code.
+- **Bonus topic**: Where Copilot coding agent (formerly Copilot cloud agent) fits into your GitHub workflow.
 - **What you'll build**: You will guide Copilot to update Mergington High School's extracurricular activities website.
 - **Prerequisites**:
   - Skills exercise: [Introduction to GitHub](https://github.com/skills/introduction-to-github)
@@ -17,7 +18,25 @@ In this exercise, you will:
 
 1. Use a preconfigured Codespace to run VS Code in your browser.
 1. Learn different interaction options to develop and plan with GitHub Copilot.
+1. Learn the basics of getting started with Copilot coding agent on GitHub.
 1. Use Copilot to summarize and review your pull request.
+
+### Getting started with Copilot coding agent
+
+Copilot coding agent (formerly called **Copilot cloud agent**) complements the IDE experiences in this exercise. Instead of editing code inside your local editor session, it works asynchronously on GitHub by taking on an assigned task and opening a pull request with its proposed changes.
+
+If you want to continue from this exercise into coding agent workflows, here are the key basics:
+
+1. Make sure Copilot coding agent is available for your plan, account, and repository.
+1. Create or pick a GitHub issue that describes the work to do, then assign it to `@copilot`.
+1. Follow the coding session and review the pull request that Copilot opens for you.
+1. If your repository needs extra tooling or dependencies, customize the agent environment with `.github/workflows/copilot-setup-steps.yml`.
+
+Helpful references:
+
+- [About GitHub Copilot coding agent](https://docs.github.com/copilot/concepts/agents/coding-agent/about-coding-agent)
+- [Use GitHub Copilot agents](https://docs.github.com/en/copilot/how-tos/use-copilot-agents)
+- [Customize the coding agent environment](https://docs.github.com/en/copilot/customizing-copilot/customizing-the-development-environment-for-copilot-coding-agent)
 
 ### How to start this exercise
 

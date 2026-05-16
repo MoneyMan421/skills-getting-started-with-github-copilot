@@ -28,6 +28,24 @@ As you work, you'll find GitHub Copilot can help out in several places across th
 
 For today's coding though, we will practice with VS Code in a pre-configured development environment known as a [GitHub Codespace](https://github.com/features/codespaces).
 
+### ☁️ Bonus: Getting started with Copilot coding agent
+
+Copilot coding agent (formerly called **Copilot cloud agent**) is different from the IDE-based **Agent Mode** used later in this exercise.
+
+- **Agent Mode in your IDE** works inside VS Code and helps you directly in your current editor session.
+- **Copilot coding agent on GitHub** works asynchronously from an issue or task assignment and opens a pull request with the proposed changes.
+
+If you want to get started with Copilot coding agent after this exercise, the typical flow is:
+
+1. Confirm that Copilot coding agent is enabled for your plan, account, and repository.
+1. Open or choose a GitHub issue that clearly describes the task.
+1. Assign the issue to `@copilot` or start from the Copilot agents experience on GitHub.
+1. Review the pull request, logs, and comments that Copilot produces before merging.
+1. If your project needs extra setup, add `.github/workflows/copilot-setup-steps.yml` so the agent can install tools and dependencies before it starts coding.
+
+> [!TIP]
+> Want to go deeper? See [About GitHub Copilot coding agent](https://docs.github.com/copilot/concepts/agents/coding-agent/about-coding-agent), [Use GitHub Copilot agents](https://docs.github.com/en/copilot/how-tos/use-copilot-agents), and [Customize the development environment for Copilot coding agent](https://docs.github.com/en/copilot/customizing-copilot/customizing-the-development-environment-for-copilot-coding-agent).
+
 > [!TIP]
 > You can learn more about current and upcoming features in the [GitHub Copilot Features](https://docs.github.com/en/copilot/about-github-copilot/github-copilot-features) documentation.
 
