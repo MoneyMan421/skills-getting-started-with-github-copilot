@@ -110,6 +110,7 @@ pytest tests/ -v
 - **Experiment**: Try modifying the examples to see what happens
 - **Ask Copilot**: Use Copilot to explain parts you don't understand
 - **Compare approaches**: Your solution might be better than the example!
+- **Refactor opportunities**: The example code has some intentional duplication (e.g., in `unregisterParticipant` function) that could be refactored into reusable functions - this is a great exercise to practice with Copilot!
 
 ---
 
