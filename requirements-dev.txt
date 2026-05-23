@@ -1,0 +1,3 @@
+-r requirements.txt
+pytest==8.2.0               # Testing framework
+watchfiles==0.21.0          # Auto-reloader for development
